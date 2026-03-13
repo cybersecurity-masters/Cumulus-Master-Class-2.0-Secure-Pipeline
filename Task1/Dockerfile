@@ -1,8 +1,4 @@
-FROM python:3.9-slim
+FROM masterclassregistry.azurecr.io/base-app:v1
 
-WORKDIR /app
-RUN pip install flask requests
-
-COPY app.py .
 
 CMD ["python", "app.py"]

@@ -1,5 +1,4 @@
 judge.py
-app.py
 *.log
 .vscode/
 __pycache__/
