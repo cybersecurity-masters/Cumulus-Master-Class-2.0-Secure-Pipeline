@@ -1,6 +1,0 @@
-judge.py
-*.log
-.vscode/
-__pycache__/
-.idea/
-*.pyc
