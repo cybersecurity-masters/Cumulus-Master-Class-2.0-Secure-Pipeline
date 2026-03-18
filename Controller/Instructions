@@ -13,3 +13,7 @@ az container create --resource-group CumulusMasterclass --location westeurope --
 Check for connection
 az container exec --name judge --resource-group CumulusMasterclass --exec-command "tail -f /tmp/judge.log"
 
+*Use this commands to delete resources when needed
+az network vnet delete --name masterclassvnet --resource-group CumulusMasterclass
+az container delete --name ? --resource-group CumulusMasterclass
+
