@@ -2,7 +2,7 @@ Secure the container
 RUN useradd -m appuser
 USER appuser
 
-Build the container
+Build the image
 az acr build --registry masterclassregistry --image task1:v1-fixed .
 
 Get credentials to the registry
